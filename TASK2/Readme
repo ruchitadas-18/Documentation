@@ -1,1 +1,20 @@
+**OverView**
 
+Adding the product in using different methods and checkout from the site as a guest user
+
+### **Scope Covered**
+
+Search Bar: Implemented functionality to search for products.
+Adding Products:
+Via Product Detail Page (PDP): Automated the process of selecting and adding a product to the cart from the product detail page.
+Via Product Listing Page (PLP): Automated the addition of a product directly from the product listing page.
+Adjusting Quantities: Added functionality to increase the quantity of items in the cart.
+Handling Pop-Ups and Dropdowns: Managed interactions with pop-ups and dropdown menus throughout the process.
+Checkout Process: Automated the checkout process, including guest checkout and entering shipping details.
+Tools Used:
+
+Eclipse for writing and executing the code.
+SelectorHub for locating web elements.
+Selenium Jars for browser automation.
+Programming Language: Java.
+Browser Used: Chrome.
