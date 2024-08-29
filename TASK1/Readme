@@ -1,1 +1,36 @@
-<b>Add a product using Backoffice</b>
+Adding a product in Storefront through Backoffice
+
+Procedure to Create A product
+1. Search for Products under Catalog Section
+2. Click on "plus symbol(+)" and a pop up will appear
+3. Enter the details like essential details, description, categorization and media
+4. Madatory  details like -> Approval = approve (otherwise the details will not be visible in online version)
+                          -> Catalog version = "Site Type" Product Staged Catalogue
+5. In Properties Section -> Add details of the product like article number, validity period, description, summary and sales unit
+                        -> This will help to provide information about the product 
+6. Remberer to save the details by clicking on save button
+7. Category System -> Add supercategories like for elecronics: webcam, heldcam, brand type
+                  -> Each brand and category has unique indentified number
+                  -> This will help to search the product using mega navigation
+8. To add prices, click on create new price row -> add the details like: prices, currency, unit
+                  -> This will help to add prices to your product 
+9. To make the prices visible add the stocks as well. without stocks prices are visible
+10. To add stock for thr product -> Click on find Stock Levels for product 
+                          -> Add the details like productCode(Article Number), warehouse and Available Amount(Number of elements present in stock)
+Remberer to save the details by clicking on save button
+11. To add images -> Click on multimedia 
+                  -> Clcik on galary images and then create media container
+                  -> Fill the details like catalog version, name, qualifier(article number)
+                  -> Click on Finish
+                  -> Add image and thumbnail with following details: media format(image: 300W X 300H and thumbnail: 30W X 30H)
+                                                                    : media container and folder as well as upload the image
+                                                                    : Click on save after Adding the details
+12. To add the variants: Select the desire Variant type
+                        : Click on save button
+                        : click on Create varient name(ELectronics Color Variant)
+                        : Enter the details like essential details, description, categorization and media
+                        : Click on Finish
+                        : Click on Save button and wait for few minutes
+                        : Click on the varients box and add the specific difference(color, type)
+Now Synchronic the details from staged(version which is enable to edit) to online(version visible to the user)
+Add the stocks, images, details, prices in there own staged blocks and then synchronice them.
