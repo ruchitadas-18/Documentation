@@ -1,36 +1,79 @@
-Adding a product in Storefront through Backoffice
+### Procedure to Create a Product in Storefront via Backoffice
 
-Procedure to Create A product
-1. Search for Products under Catalog Section
-2. Click on "plus symbol(+)" and a pop up will appear
-3. Enter the details like essential details, description, categorization and media
-4. Madatory  details like -> Approval = approve (otherwise the details will not be visible in online version)
-                          -> Catalog version = "Site Type" Product Staged Catalogue
-5. In Properties Section -> Add details of the product like article number, validity period, description, summary and sales unit
-                        -> This will help to provide information about the product 
-6. Remberer to save the details by clicking on save button
-7. Category System -> Add supercategories like for elecronics: webcam, heldcam, brand type
-                  -> Each brand and category has unique indentified number
-                  -> This will help to search the product using mega navigation
-8. To add prices, click on create new price row -> add the details like: prices, currency, unit
-                  -> This will help to add prices to your product 
-9. To make the prices visible add the stocks as well. without stocks prices are visible
-10. To add stock for thr product -> Click on find Stock Levels for product 
-                          -> Add the details like productCode(Article Number), warehouse and Available Amount(Number of elements present in stock)
-Remberer to save the details by clicking on save button
-11. To add images -> Click on multimedia 
-                  -> Clcik on galary images and then create media container
-                  -> Fill the details like catalog version, name, qualifier(article number)
-                  -> Click on Finish
-                  -> Add image and thumbnail with following details: media format(image: 300W X 300H and thumbnail: 30W X 30H)
-                                                                    : media container and folder as well as upload the image
-                                                                    : Click on save after Adding the details
-12. To add the variants: Select the desire Variant type
-                        : Click on save button
-                        : click on Create varient name(ELectronics Color Variant)
-                        : Enter the details like essential details, description, categorization and media
-                        : Click on Finish
-                        : Click on Save button and wait for few minutes
-                        : Click on the varients box and add the specific difference(color, type)
-Now Synchronic the details from staged(version which is enable to edit) to online(version visible to the user)
-Add the stocks, images, details, prices in there own staged blocks and then synchronice them.
+#### 1. Search for Products
+- Navigate to the **Catalog Section**.
+- Under **Products**, search for the product you wish to create or update.
+
+#### 2. Initiate Product Creation
+- Click on the **plus symbol (+)** to open the product creation pop-up.
+
+#### 3. Enter Product Details
+- Fill in the essential details:
+  - **Essential Details:** Include product name, code, and other necessary identifiers.
+  - **Description:** Provide a detailed description of the product.
+  - **Categorization:** Assign the product to the appropriate category.
+  - **Media:** Add images or other media assets related to the product.
+  
+- **Mandatory Fields:**
+  - **Approval:** Set the approval status to **"approve"** (This is crucial for the product to be visible in the online version).
+  - **Catalog Version:** Choose the appropriate catalog version, such as **"Site Type Product Staged Catalogue"**.
+
+#### 4. Properties Section
+- Add detailed information about the product:
+  - **Article Number:** Assign a unique article number.
+  - **Validity Period:** Specify the validity period of the product.
+  - **Description and Summary:** Provide a concise summary and detailed description.
+  - **Sales Unit:** Define the sales unit (e.g., piece, pack).
+
+- **Note:** Ensure you save these details by clicking the **Save** button.
+
+#### 5. Category System
+- Add supercategories that relate to the product:
+  - Example for electronics: **Webcam, Heldcam, Brand Type**.
+  - **Each brand and category must have a unique identifier**.
+
+- **Purpose:** This categorization will facilitate product searches using mega navigation.
+
+#### 6. Adding Prices
+- To add prices, click on **Create New Price Row** and fill in the necessary details:
+  - **Price:** Set the product price.
+  - **Currency:** Choose the currency.
+  - **Unit:** Define the pricing unit.
+
+#### 7. Stock Management
+- **Note:** Prices are only visible if stock levels are defined.
+- To add stock for the product:
+  - Click on **Find Stock Levels for Product**.
+  - Enter the following details:
+    - **Product Code (Article Number)**
+    - **Warehouse**
+    - **Available Amount** (Number of units in stock).
+
+- **Remember to save the details** by clicking on the **Save** button.
+
+#### 8. Adding Images
+- Navigate to the **Multimedia** section.
+- Click on **Gallery Images** and then select **Create Media Container**.
+- Fill in the necessary details:
+  - **Catalog Version, Name, Qualifier (Article Number)**.
+  - Click **Finish**.
+  
+- Add images and thumbnails with the following specifications:
+  - **Media Format:** 
+    - Image: **300W x 300H**
+    - Thumbnail: **30W x 30H**
+  - **Media Container and Folder:** Assign the media to the correct container and folder.
+  - **Upload the Image:** Ensure the image is uploaded and saved.
+
+#### 9. Adding Variants
+- Select the desired **Variant Type**.
+- Click **Save** and proceed to **Create Variant Name** (e.g., **Electronics Color Variant**).
+- Enter the details similar to the main product:
+  - **Essential Details, Description, Categorization, Media**.
+  
+- Click **Finish** and save the variant.
+- After saving, open the **Variants** box and add the specific variant differences (e.g., color, type).
+
+#### 10. Synchronization
+- **Synchronize** the product details from the **Staged Version** (editable) to the **Online Version** (visible to users).
+- Ensure all necessary information, including stock levels, images, details, and prices, is added to the respective staged blocks before synchronization.
