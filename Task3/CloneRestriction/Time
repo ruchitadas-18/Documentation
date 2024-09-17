@@ -1,1 +1,19 @@
 
+## Procedure for Restresting a Clone Page
+1. Navigate to "Pages" and search for the desired page.
+2. Open the page menu and select "Clone."
+3. Click on the page title, choose either "Basic" or "Advanced" Edit.
+4. Select "Clone," then fill in the necessary details and information for the cloned page.
+5. Click "Add Restriction" to open the Add Restrictions panel in SmartEdit.
+6. From the "Restrictions Type" menu, choose "Time Restriction."
+7. In the "Restriction" field, start typing the restriction name. If an existing restriction with that name appears, select it from the list. If not, click "Create" to define a new restriction.
+   
+**Note:** The restriction name must be unique.
+
+8. Click "Create" to proceed. The Add Restriction panel will display fields for defining your time restriction.
+9. In the "Active From" field, specify the start date and time when the page will be visible to customers.
+10. In the "Active Until" field, set the end date and time for the page display.
+11. Click "Add." If there are multiple restrictions, specify how they should be applied:
+    - "Match all": The page or component is shown only if all restriction conditions are met.
+    - "Match any": The page or component is shown if any of the restriction conditions are met.
+12. Continue editing your page or component as needed, and save your changes once complete.
