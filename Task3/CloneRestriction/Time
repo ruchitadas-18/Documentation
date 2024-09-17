@@ -1,5 +1,5 @@
 
-## Procedure for Restresting a Clone Page
+## Procedure for Time Restiction a Clone Page
 1. Navigate to "Pages" and search for the desired page.
 2. Open the page menu and select "Clone."
 3. Click on the page title, choose either "Basic" or "Advanced" Edit.
@@ -17,3 +17,14 @@
     - "Match all": The page or component is shown only if all restriction conditions are met.
     - "Match any": The page or component is shown if any of the restriction conditions are met.
 12. Continue editing your page or component as needed, and save your changes once complete.
+
+## Editing a Time Restriction in a Clone Page
+1. In the Page Editor, navigate to the "Restrictions" tab to view its contents.
+2. Click on the options menu of the restriction you want to edit and select "Edit."
+3. The "Edit Restriction" panel will appear, allowing you to modify the following fields:
+    - Name
+    - Active From
+    - Active Until
+4. Make the necessary changes to the time restriction and click "Save."
+5. You'll be taken back to the Restrictions tab in the Page Editor.
+6. After making any additional edits to your page, click "Save" to finalize the changes.
