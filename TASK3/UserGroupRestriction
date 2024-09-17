@@ -1,0 +1,31 @@
+ ## Procedure to create a usergruoup restriction using SmartEdit
+
+1. Log in to SmartEdit.
+2. Click on "Create Page."
+3. Choose the type of page template you'd like to create.
+4. Select the appropriate template.
+5. Enter the necessary content details.
+6. Fill in the information fields.
+
+Next, click the "Add Restriction" button. SmartEdit will display the Add Restrictions panel.
+
+7. From the "Restrictions Type" menu, select "Usergroup Restriction."
+8. In the "Restriction" field, start typing the name of the restriction. If the restriction already exists, it will appear in the list. If not, click "Create" to define a new restriction.
+
+**Note:** The restriction name must be unique.
+
+9. Click "Create." The Add Restriction panel will now allow you to define the user group restriction.
+10. In the "Name" field, confirm the user group restriction name.
+11. If you want the restriction to apply to sub-user groups, click the "Apply restriction to sub-usergroups" button.
+12. Select user groups for the restriction by placing your cursor in the "User Groups" field. A drop-down list of user groups will appear.
+    - To narrow down the options, enter a search string, and only the user groups matching your criteria will be displayed.
+    - Click a user group to select it for the restriction. Repeat this step to select multiple user groups.
+13. Once all user groups have been selected, click "Add." The selected user groups will be added to the restriction and displayed at the bottom of the Add Restriction panel.
+
+14. Click "Add." The User Group restriction is now added to the list of restrictions.
+
+You can continue adding restrictions if needed. If there are multiple restrictions, you must specify how they should be applied:
+   - **Match all**: The page or component will be displayed only when all restriction conditions are met.
+   - **Match any**: The page or component will be displayed when any of the restriction conditions are met.
+
+15. Continue to edit or create your page as desired. Once finished, save your changes.
