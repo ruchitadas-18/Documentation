@@ -1,1 +1,44 @@
+## Procedure to Create a Responsive Banner
 
+#### **1. Create a Banner:**
+1. First, create a banner component in SmartEdit or Backoffice.
+2. Add a media container to the component by clicking on the "Media" option and selecting "Media Container."
+3. Enter the necessary details, such as the **catalog version** and the **qualifier** (name of the media container).
+4. Click **Save** to create the media container.
+
+#### **2. Add Media to the Container:**
+5. Once the media container is created, click on the container and scroll down to the "Media" section.
+6. Click on "Create Media" to add new media to the container.
+7. Fill in the required details:
+   - **Properties** (such as title, description, etc.)
+   - Upload the **image**.
+   - Select the appropriate **folder** for the media.
+   - Choose the **image format** (e.g., desktop, mobile).
+   - Select the **media container** where this media will be stored.
+8. After entering all the required details, click **Save** to save the media.
+
+#### **3. Identify Content Slot in SmartEdit:**
+9. In SmartEdit, navigate to the page where you want to place the banner.
+10. Identify the **content slot** where the banner component will be added.
+
+#### **4. Add Banner Component in Backoffice:**
+11. In **Backoffice**, go to the **WCMS** dropdown and select **Component**.
+12. Choose **Simple Responsive Banner** under the **Abstract Responsive** option.
+13. Fill in the necessary details such as the **catalog version** and **ID**, then click **Finish**.
+
+#### **5. Add Media Container to the Component:**
+14. Navigate to the created banner component and add the previously created **media container**.
+15. Make sure all media and format options are appropriately filled in.
+
+#### **6. Assign the Component to the Content Slot:**
+16. In Backoffice, navigate to the **Content Slot** section under **WCMS**.
+17. Search for the content slot that you identified in SmartEdit.
+18. Add the banner component in the **Component** field.
+19. Once the component is added, click on it.
+
+#### **7. Link the Banner to a URL:**
+20. In the component details, locate the **Link** field where you can add the URL you want the banner to direct to.
+
+#### **8. Save and Publish:**
+21. After configuring the component and media, click **Save**.
+22. Refresh the storefront, and the banner should now be displayed with the media and link you’ve configured.
