@@ -1,0 +1,34 @@
+### ✅ **Key Details from the Checkbox:**
+
+- **Tag:** `<input type="checkbox">`
+- **Class:** `PrivateSwitchBase-input css-1m9pwf3`
+- **Visible Label Text:** `Use same service address for billing`
+- **Issue:** Element is sometimes covered by a backdrop, causing `ElementClickInterceptedException`.
+
+---
+
+### ✅ **Updated Working Code**
+
+Here’s an updated version of your checkbox interaction logic:
+
+```java
+// Wait until backdrop disappears
+WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("MuiBackdrop-root")));
+
+// Scroll to checkbox
+WebElement checkbox = driver.findElement(By.cssSelector("input.PrivateSwitchBase-input[type='checkbox']"));
+((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", checkbox);
+
+// Click using JavaScript to avoid interception
+((JavascriptExecutor) driver).executeScript("arguments[0].click();", checkbox);
+```
+
+---
+
+### ✅ **Why this works:**
+
+- ✅ The selector is specific and valid: `input.PrivateSwitchBase-input[type='checkbox']`
+- ✅ We wait for the overlay (`MuiBackdrop-root`) to disappear.
+- ✅ We scroll into view.
+- ✅ We use JavaScript to **force the click**, avoiding any overlap issues.
