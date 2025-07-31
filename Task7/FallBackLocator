@@ -1,0 +1,40 @@
+* import static org.openqa.selenium.support.locators.RelativeLocator.with ;
+ * Array of locators -> Fallback locator strategy
+ *
+ * public static WebDriver findElement(Webdriver driver, By relativeRefLocator, ByfallBackTagName, String relativePostion, By... locators){
+ * 	for(By locator: locators){
+ * try{
+ * 		Sout("Trying Element = loctor.toString());
+ * 		WebElement elementPath = driver.findElement(locator);
+ * 		return element;
+ * }catch (NoSuchElement e){
+ *  System.out.println("ELement Not Found"+ locator.toString());
+ *}
+ *
+ *try{
+ *    System.out.println("trying relative locator" +)
+ *    WebElement refereferance = driver.findElement(relativeRefLocator);
+ *    
+ *    switch(relativePosition.toLowerCase()){
+ *    		case "bellow":
+ *    				relativeElement = driver.findElement(with (fallBackTagName).below(referanceElement);
+ *    				break;
+ *    		case "near":
+ *}catch (NoSuchElement e){
+ *  System.out.println("ELement Not Found"+ locator.toString());
+ *}
+ * 
+ */
+public class inviteEmailPage {
+	
+	WebDriver driver;
+	WebDriverWait wait;
+	
+	/*
+	 * new By[]{
+	 *  By.id("idk"),
+	 *  By.name(""),
+	 *  By.xpath(""),
+	 *  };
+	 */
+  findElement(driver, locators, By.id("password"), By.tagname("Password"), "below");
